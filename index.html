@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; width: 300px; }
+        button { padding: 10px 20px; margin-left: 10px; }
+        .short-url { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>URL Shortener</h1>
+
+    <input type="text" id="originalUrl" placeholder="Enter URL here">
+    <button onclick="shortenUrl()">Shorten</button>
+
+    <div class="short-url" id="shortUrlDisplay"></div>
+
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            width: 320px;
+        }
+        button {
+            padding: 10px 16px;
+            margin-left: 6px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 25px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>URL Shortener</h1>
+
+<input type="text" id="originalUrl" placeholder="Enter long URL">
+<button onclick="shortenUrl()">Shorten</button>
+
+<div class="result" id="result"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
